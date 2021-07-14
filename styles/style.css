@@ -175,5 +175,22 @@ body {
    Media Queries
    ------------------- */
   
-  /* @media screen and ( max-width:){
-   } */
+  /* mobile divice */
+  @media only screen and (max-width:688px) {
+    .first-section{
+     height: 100%;
+     width: 100%;
+     grid-template-columns: repeat(1, 1fr);
+     background-color: #0308bf;
+     
+    }
+    .players{
+      display: column;
+     grid-template-columns: repeat(1, 1fr);
+    }
+  .third-section{
+    height: 100%;
+    width: 100%;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  }
