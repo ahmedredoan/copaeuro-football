@@ -1,0 +1,179 @@
+body {
+    margin: 0;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  .first-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+    height: 677px;
+    background-color: #0308bf;
+  }
+  .header {
+    font-family: "Poppins", sans-serif;
+    color: white;
+    margin: 170px;
+    font-size: 35px;
+    font-weight: 800;
+  }
+  .first-btn {
+    font-size: 20px;
+    padding: 12px;
+    background-image: linear-gradient(
+        to right,
+        orange,
+        pink,
+        red,
+        blue,
+        yellow,
+        indigo
+    );
+
+  }
+  .fa-long-arrow-alt-right {
+    font-size: 30px;
+    margin-left: 5px;
+    text-align: center;
+    color: black;
+  }
+  .football-bg {
+    width: 500px;
+    height: 400px;
+    margin: 118px;
+    transition: width 3s, height 5s;
+  }
+  .football-bg:hover {
+    width: 550px;
+    height: 500px;
+  }
+  /*--------------
+   Section two Style 
+   ----------------*/
+.container {
+    margin: 5%;
+    background-color: white;
+  }
+  .player {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    width: 330px;
+    height: 474px;
+    padding: 15px;
+    margin-bottom: 20px;
+    box-shadow: 10px 10px 50px rgb(199, 193, 193);
+  }
+  .player img {
+    width: 300px;
+    height: 256px;
+    margin-left: 15px;
+    margin-top: 5px;
+  }
+  .players {
+    display: grid;
+    /*------------------
+     grid-row-gap: 10px; 
+     ---------------------*/
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0px 110px;
+  }
+  .para-style {
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+  }
+  /*------------
+   ThirdSection 
+   --------------*/
+  
+  .third-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 30px;
+    margin-right: 20px;
+  }
+  .match-highlights {
+    margin: 10px 30px 0px 110px;
+  }
+  .match-highlights h1 {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 45px;
+    font-weight: 800;
+  }
+  .match-highlights p {
+    font-size: 18px;
+    width: 469px;
+  }
+  .match-img {
+    width: 567px;
+    height: 427px;
+  }
+  
+  /*--------------
+   footer Section 
+   ---------------*/
+  
+  .footer-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .foot-img {
+    align-items: center;
+    height: 110px;
+    margin-top: 50px;
+  }
+  
+  .fa-instagram-square {
+    font-size: 50px;
+    color: red;
+    margin-right: 10px;
+  }
+  .fa-facebook-square {
+    font-size: 50px;
+    color: blue;
+    margin-right: 10px;
+  }
+  .fa-twitter {
+    font-size: 50px;
+    color: blue;
+    margin-right: 10px;
+  }
+  .fa-youtube {
+    font-size: 50px;
+    color: rgb(255, 0, 0);
+    margin-right: 10px;
+  }
+  .fa-dribbble {
+    font-size: 50px;
+    color: black;
+    margin-right: 10px;
+  }
+  
+  .foot-icon {
+    height: 213px;
+    margin-top: -50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  footer {
+    height: 50px;
+    /*---------------
+     margin-top: 30px; 
+     -----------------*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /*------------------
+   Media Queries
+   ------------------- */
+  
+  /* @media screen and ( max-width:){
+   } */
